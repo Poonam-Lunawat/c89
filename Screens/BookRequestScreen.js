@@ -47,17 +47,17 @@ export default class BookRequestScreen extends Component {
   }
 
 
- getRequestStatus=()=>{
-   db.collection("all_donations").where("book_name",'==',this.state.bookName)
-   .onSnapshot(query => {
+//  getRequestStatus=()=>{
+//    db.collection("all_donations").where("book_name",'==',this.state.bookName)
+//    .onSnapshot(query => {
 
-    query.forEach((doc) => {
-      this.setState({
-        requestStatus:doc.data().request_status,
-      })
+//     query.forEach((doc) => {
+//       this.setState({
+//         requestStatus:doc.data().request_status,
+//       })
 
-    })
-  })
+//     })
+//   })
   //  .then((snapshot) => {
   //   snapshot.forEach((doc) => {
   //       this.setState({
