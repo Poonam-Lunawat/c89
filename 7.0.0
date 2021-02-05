@@ -1,0 +1,9 @@
++ @react-navigation/native@5.0.5
++ react-native-vector-icons@8.0.0
+added 11 packages from 6 contributors, removed 193 packages, updated 1 package and audited 981 packages in 26.196s
+
+25 packages are looking for funding
+  run `npm fund` for details
+
+found 10 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
